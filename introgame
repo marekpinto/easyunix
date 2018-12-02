@@ -1,0 +1,23 @@
+#!/bin/bash
+
+printf "At first, the world was ruled by penguins - fair, wise, and just creatures that kept the world in order. No penguin was more 
+perfect than Tux, the embodiment of the penguin race. Then, tragedy struck. The polar bears grew jealous of the penguin\'s power, and 
+devised a plot to overthrow the rule of the just penguins. When the penguins were testing their new rocket for their space program, an 
+aloof polar bear, out of spite of their intelligence, captured Tux in order to suck out his knowledge. 5 years have passed, and the 
+penguins have fled to dark caves underground, gathering strength to one day restore the world. You are an innocent penguin, living in 
+South America ignorant of the conflict of Antarctica. Until one day...\n"
+read -p "<Press Enter To Continue>\n"
+printf "Suddenly, you hear a loud knock on your door. You open the door and five well-dressed penguins quickly run in. They seem to be 
+professionals, and it looks like they know magic.  Apparently, they have been monitoring you and think you have the potential to join 
+the Free Penguin Army, an underground organization looking to save Tux. They take you to the caves of Antarctica, where you begin your training….\n"
+read -p "<Press Enter To Continue>\n"
+printf "Welcome to the Underground Penguin Academy! Here you will learn spells that will help you use magic in the Linux World\n"
+printf "First things first, you need to learn to talk. Sometimes, you will need to talk your way through a situation or communicate with 
+your allies. To talk, simply use echo <text> command. For example, to say pizza, use the spell \"echo pizza\". Now, try to say 
+Hello."
+
+	read cmd
+eval $cmd
+printf "Congratulations! You successfully learnt how to talk." 
+
+
